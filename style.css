@@ -40,8 +40,8 @@ nav
 
 .logo span
 {
-    color: #b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color: #00008b;
+    text-shadow: 0 0 10px #00008b;
 }
 
 .hamburg,
@@ -82,7 +82,7 @@ nav
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #b74b4b;
+    background-color: #00008b;
     transition: 0.2s linear;
 }
 
@@ -93,7 +93,7 @@ nav
 
 .navigation .links a:hover
 {
-    color: #b74b4b;
+    color: #00008b;
 }
 
 .dropdown
@@ -122,7 +122,7 @@ nav
 
 .dropdown .links a:hover
 {
-    background-color: #b74b4b;
+    background-color: #00008b;
 }
 
 section
@@ -146,7 +146,7 @@ section .main
     height: 80vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px #b74b4b;
+    box-shadow: 0 0 50px #00008b;
 }
 
 .main .image img
@@ -167,8 +167,8 @@ section .main
 
 .content h1 span
 {
-    color:#b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color:#00008b;
+    text-shadow: 0 0 10px #00008b;
 }
 
 .content .introduce
@@ -179,14 +179,21 @@ section .main
 
 .content .introduce-text
 {
-    color: #b74b4b;
-    text-shadow: 0 0 10px #b74b4b;
+    color: #00008b;
+    text-shadow: 0 0 6px #00008b;
 }
 
 .content p
 {
     margin: 10px 0;
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+    text-align: justify;
+}
+
+.content .introduce span
+{
+    color: #00008b;
+    text-shadow: 0 0 6px #00008b;
 }
 
 .social-links i
@@ -197,9 +204,9 @@ section .main
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #00008b;
     border-radius: 50%;
-    color: #b74b4b;
+    color: #00008b;
     margin: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
@@ -209,17 +216,17 @@ section .main
 {
     scale: 1.3;
     color: #000;
-    background-color: #b74b4b;
-    filter: drop-shadow(0 0 10px #b74b4b);
+    background-color: #00008b;
+    filter: drop-shadow(0 0 10px #00008b);
 }
 
 .content button
 {
     width: 50%;
     height: 6vh;
-    margin: 30px;
-    background-color: #b74b4b;
-    color: #000;
+    margin: 20px;
+    background-color: #00008b;
+    color: #fff;
     border: none;
     outline: none;
     font-size: 120%;
@@ -231,10 +238,10 @@ section .main
 .content button:hover
 {
     scale: 1.1;
-    color: #b74b4b;
+    color: #00008b;
     background-color: transparent;
     font-weight: bold;
-    box-shadow: 0 0 40px #b74b4b;
+    box-shadow: 0 0 40px #00008b;
 }
 
 section .content
@@ -274,7 +281,7 @@ section .title span::after
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #b74b4b;
+    background: #00008b;
     left: 0;
     bottom: 0;
 }
@@ -325,7 +332,7 @@ section .btn
 
 section .btn button:hover
 {
-    border-color: #b74b4b;
+    border-color: #00008b;
     background-color: #fff;
 }
 
@@ -389,7 +396,7 @@ section .btn button:hover
 .skills-details .boxes .topic
 {
     font-size: 20px;
-    color: #b74b4b;
+    color: #00008b;
 }
 
 .skills-details .boxes .percent
@@ -418,7 +425,7 @@ section .btn button:hover
 
 footer
 {
-    background: #b74b4b;
+    background: #00008b;
     padding: 12px 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -428,13 +435,13 @@ footer .text span
 {
     font-size: 17px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
 }
 
 footer .text span a
 {
     font-weight: 500;
-    color: #000;
+    color: #fff;
 }
 
 @media (max-width: 768px)
